@@ -24,6 +24,6 @@ class ListViewSet(ModelViewSet):
     serializer_class = ListSerializer
 
 class CardViewSet(ModelViewSet):
-    queryset = Card.object.all()
+    queryset = Card.objects.all()
     serializer_class = CardSerializer
 
